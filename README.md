@@ -35,11 +35,11 @@ To replicate this environment, follow these steps:
 1. **Start the POX Controller:**
    ```bash
    python3 ./pox.py log.level --DEBUG orange_controller
-2.Launch the Mininet Topology:
+2. **Launch the Mininet Topology:**
   ```bash
 sudo mn --custom orange_topo.py --topo orangetopo --controller remote,ip=127.0.0.1
 ```
-3.Verify Flows:
+3. **Verify Flows:**
 
 ```bash
 sudo ovs-ofctl dump-flows s1
